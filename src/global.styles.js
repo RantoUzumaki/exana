@@ -5,6 +5,7 @@ const loginStyle = {
     "flex",
     "justify-center",
     "items-center",
+    "relative",
   ].join(" "),
   wrapperContent: [
     "w-4/5", //
@@ -60,6 +61,9 @@ const loginStyle = {
     "justify-center",
     "items-center",
     "relative",
+    "bg-white",
+    "rounded-tr-xl",
+    "rounded-br-xl",
   ].join(" "),
   wrapperRightContent: [
     "flex", //
@@ -134,6 +138,90 @@ const loginStyle = {
     "stroke-black",
     "group-hover:stroke-blue",
   ].join(" "),
+  modelWrapper: [
+    "absolute", //
+    "flex",
+    "justify-center",
+    "items-center",
+    "top-0",
+    "bottom-0",
+    "left-0",
+    "right-0",
+    "backdrop-blur",
+    "transition-all",
+    "duration-300",
+  ].join(" "),
+  modelWrapperHide: [
+    "absolute", //
+    "hidden",
+    "justify-center",
+    "items-center",
+    "top-0",
+    "bottom-0",
+    "left-0",
+    "right-0",
+    "backdrop-blur",
+    "transition-all",
+    "duration-300",
+  ].join(" "),
+  modelWrapperMain: [
+    "relative", //
+    "w-1/4",
+    "h-max",
+    "bg-white",
+    "border",
+    "border-blue",
+    "rounded-2xl",
+  ].join(" "),
+  modelWrapperContent: [
+    "p-4", //
+    "border",
+    "border-blue",
+    "rounded-2xl",
+  ].join(" "),
+  modelWrapperHead: [
+    "flex", //
+    "border-b",
+    "pb-4",
+    "border-blue",
+    "justify-between",
+    "items-center",
+  ].join(" "),
+  modelWrapperHeaderContent: [
+    "text-xl", //
+    "font-semibold",
+  ].join(" "),
+  modelWrapperCloseBtn: [
+    "hover:border", //
+    "group",
+    "hover:border-blue",
+    "hover:rounded-xl",
+    "p-2",
+    "border",
+    "border-transparent",
+    "m-0",
+    "transition-all",
+  ].join(" "),
+  modelWrapperCloseBtnSvg: [
+    "group-hover:text-blue", //
+  ].join(" "),
+  modelWrapperbody: [
+    "pt-4", //
+    "flex",
+    "flex-col",
+  ].join(" "),
+  modelWrapperSendBtn: [
+    "px-6", //
+    "py-2",
+    "w-fit",
+    "ml-auto",
+    "border",
+    "border-blue",
+    "rounded-xl",
+    "hover:bg-blue",
+    "hover:text-white",
+    "transition-all",
+  ].join(" "),
 };
 
 const registerStyle = {
@@ -198,6 +286,9 @@ const registerStyle = {
     "justify-center",
     "items-center",
     "relative",
+    "bg-white",
+    "rounded-tr-xl",
+    "rounded-br-xl",
   ].join(" "),
   wrapperRightContent: [
     "flex", //
@@ -223,6 +314,15 @@ const registerStyle = {
     "text-white",
     "bg-blue-light",
     "hover:bg-blue-dark",
+    "transition-all",
+    "duration-200",
+  ].join(" "),
+  registerBtnDisabled: [
+    "px-6",
+    "py-3",
+    "rounded-xl",
+    "text-white",
+    "bg-gray",
     "transition-all",
     "duration-200",
   ].join(" "),
@@ -287,6 +387,8 @@ const headerNavStyle = {
     "m-0",
     "transition-all",
     "duration-200",
+    "border-b-4",
+    "border-transparent",
     "hover:text-blue",
     "hover:border-b-4",
     "hover:border-blue",
@@ -362,6 +464,11 @@ const globalStyles = {
     "w-5",
     "h-5",
   ].join(" "),
+  inputWithIconIconError: [
+    "text-red-500", //
+    "w-5",
+    "h-5",
+  ].join(" "),
   inputWithIconPasswordIcon: [
     "text-black", //
     "w-5",
@@ -370,7 +477,7 @@ const globalStyles = {
   inputWithIcon: [
     "placeholder:text-slate-400",
     "block",
-    "bg-white",
+    "bg-blue-extra-light",
     "w-full",
     "border",
     "border-slate-300",
@@ -384,6 +491,32 @@ const globalStyles = {
     "focus:ring-sky-500",
     "focus:ring-1",
     "sm:text-s",
+  ].join(" "),
+  inputWithIconError: [
+    "block",
+    "bg-red-50",
+    "w-full",
+    "border",
+    "border-red-500",
+    "text-red-500",
+    "rounded-xl",
+    "py-2",
+    "pl-9",
+    "pr-3",
+    "shadow-sm",
+    "focus:outline-none",
+    "focus:border-red-500",
+    "focus:ring-red-500",
+    "focus:ring-1",
+    "sm:text-s",
+  ].join(" "),
+  errorDiv: [
+    "flex", //
+    "text-red-500",
+    "w-full",
+    "mb-4",
+    "flex-col",
+    "text-xs",
   ].join(" "),
 };
 
