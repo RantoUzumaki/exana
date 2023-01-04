@@ -1,13 +1,12 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import React from "react";
 import styles from "../global.styles";
 
-const Home = () => {
+const Returns = () => {
 	return (
 		<div className={styles.globalStyles.wrappedContainer}>
-			<h1>Home</h1>
+			<h1>Returns</h1>
 		</div>
 	);
 };
 
-export default Home;
+export default Returns;

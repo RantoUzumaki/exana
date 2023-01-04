@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./../global.styles";
 
-const ContactUs = () => {
+const Investments = () => {
 	return (
 		<div className={styles.globalStyles.wrappedContainer}>
-			<h1>Contact US</h1>
+			<h1>Investments</h1>
 		</div>
 	);
 };
 
-export default ContactUs;
+export default Investments;
